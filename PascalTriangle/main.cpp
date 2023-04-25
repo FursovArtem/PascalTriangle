@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <iomanip>
 #include <vector>
 using namespace std;
@@ -18,10 +18,10 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int n;
-	cout << "Ââåäèòå âûñîòó òðåóãîëüíèêà: "; cin >> n; n--;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°: "; cin >> n; n--;
 	while (n < 0 || n > 20)
 	{
-		cout << "Íåâîçìîæíàÿ âûñîòà òðåóãîëüíèêà. Ïîâòîðèòå ââîä: "; cin >> n; n--;
+		cout << "ÐÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð°Ñ Ð²Ñ‹ÑÐ¾Ñ‚Ð° Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°. ÐŸÐ¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ðµ Ð²Ð²Ð¾Ð´: "; cin >> n; n--;
 	}
 	vector<int> v(n + 1);
 	v[0] = 1;
